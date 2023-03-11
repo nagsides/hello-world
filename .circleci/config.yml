@@ -15,3 +15,13 @@ jobs:
   test:
     override:
       - echo "no tests"
+
+  build:
+    description: Build application with Release configuration
+    executor:
+      name: windows/default
+    steps:
+      - checkout
+      - run:
+          name: "Build Application according to some given configuration"
+          command: dotnet run
