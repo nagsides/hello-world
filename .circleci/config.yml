@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: Build project 
-          command: dotnet build hello-world
+          command: dotnet build
       - run:
           name: Run project 
           command: dotnet run
