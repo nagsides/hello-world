@@ -20,4 +20,8 @@ jobs:
       - run:
           name: Run project 
           command: dotnet run
+      - run:
+          name: Publish
+          command: dotnet publish -o publish
+
 
