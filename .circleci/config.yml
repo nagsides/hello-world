@@ -18,9 +18,6 @@ jobs:
           name: Build project 
           command: dotnet build
       - run:
-          name: Run project 
-          command: dotnet run
-      - run:
           name: Publish
           command: dotnet publish -o publish
 
