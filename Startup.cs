@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http;
 
-namespace hello_world {
+namespace HelloWorld {
   public class Startup
   {
     public Startup(IHostingEnvironment env)
